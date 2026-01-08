@@ -52,7 +52,7 @@ with open(nome_file, "r") as file:
     oggetto_python = json.loads(stringa_json)
 aggiungi()
 switch = {
-    "lista": lambda:lista(20),
+    "lista": lambda:lista(21),
     "stampa": stampa
 }
 
